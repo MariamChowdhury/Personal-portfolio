@@ -1,0 +1,16 @@
+.contact-container{
+  background-color: #120E16;
+  height: 100vh;
+}
+.form-class{
+  padding-top: 100px;
+}
+.form-text{
+  color: #e8e8e8;
+}
+.form-paragraph{
+  font-style: italic;
+  color: #4D23AD;
+  padding-top: 20px;
+  font-weight: bolder;
+}

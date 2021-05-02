@@ -1,0 +1,73 @@
+.project-section{
+  background-color: #1A171E;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.project-section h2{
+  color:#E8E8E8;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.cards{
+  position:relative;
+  height:470px;
+  width:340px;
+  display: block;
+  background-color: #120E16;
+  box-shadow: 0px 1px 2px 0px rgb(77, 35, 173,0.6 ) ;
+  transition: 0.4s linear;
+}
+.cards:hover{
+  box-shadow: 0px 1px 35px 0px rgb(77, 35, 173,0.9) ;
+}
+.image img{
+transition:0.3s ;
+}
+.cards:hover .image img{
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.cards .image{
+  background-color: #120E16;
+  height: 400px;
+  overflow: hidden;
+}
+.cards .content{
+  position: absolute;
+  bottom: 0px;
+  background-color: #120E16;
+  color: #888888;
+  width: 100%;
+  text-align: center;
+  padding: 20px 30px;
+}
+.content .title{
+  font-size: 24px;
+  font-weight: 600;
+  color:#E8E8E8 ;
+}
+.content .sub-title{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.bottom{
+  text-align: justify;
+  line-height: 1.8rem;
+}
+.bottom button{
+  float:left;
+  padding: 7px 15px;
+  font-size: 17px;
+  background-color: rgb(77, 35, 173);
+  color: #E8E8E8;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.bottom button:hover{
+transform: scale(0.9);
+}
