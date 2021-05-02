@@ -37,11 +37,13 @@
   color: #E8E8E8;
   margin:2rem;
 }
+
 a.btn-main:hover{
   text-decoration: none!important;
   background-color: #4D23AD;
   color:#E8E8E8;
   transition: 0.2s ease-in-out;
+  
 }
 
 .tsparticles-canvas-el{
@@ -49,4 +51,9 @@ position: absolute;
 height: 100vh;
 width: 100vw;
 z-index: 1;
+}
+.header-glow{
+
+ font-weight: bolder;
+ 
 }

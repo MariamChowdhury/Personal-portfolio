@@ -1,63 +1,35 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './Components/NavBar/NavBar';
-import Header from './Components/Header/Header';
-import Particles from 'react-particles-js';
-import HomePageProject from './Components/Projects/HomePageProject';
-import Footer from './Components/Footer/Footer';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Contact from './Components/Contact/Contact';
-import Projects from './Components/Projects/Projects';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./Components/NavBar/NavBar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Contact from "./Components/Contact/Contact";
+import Projects from "./Components/Projects/Projects";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
 function App() {
   return (
     <div>
       <Router>
-      <NavBar></NavBar>
+        <NavBar></NavBar>
         <Switch>
-          <Route exact path='/home'>
-          <Particles 
-      params={{
-        particles:{
-          number:{
-            value:30,
-            density:{
-              enable:true,
-              value_area:900
-            }
-          },
-          shape:{
-            type:"circle",
-            stroke:{
-              width:6,
-              color:"#E8E8E8"
-            }
-          }
-        }
-      }} />
-     
-      <Header></Header>
-    <HomePageProject></HomePageProject>
-    <Footer></Footer>
+          <Route exact path="/">
+            <Home />
           </Route>
-         
-          <Route exact path='/contact'>
-            <Contact></Contact>
+          <Route path="/home">
+            <Home />
           </Route>
-          <Route exact path='/projects'>
-            <Projects></Projects>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
-          <Route exact='*'>
-            Error!
+          <Route exact path="/projects">
+            <Projects />
           </Route>
+          <Route path='/about'>
+            <About />
+          </Route>
+          <Route exact="*">Error!</Route>
         </Switch>
-       
       </Router>
-      
-     
     </div>
   );
 }

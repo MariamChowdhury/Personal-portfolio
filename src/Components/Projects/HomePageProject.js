@@ -31,7 +31,7 @@ const HomePageProject = () => {
           }
         </div>
         <div className="row">
-          <div className='my-5 text-center'>
+          <div className='mt-5 text-center'>
           <Link to="/projects"><button type="button" className="btn btn-color">
               Click to see more projects
           </button></Link>
