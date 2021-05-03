@@ -1,5 +1,5 @@
 .footer-container{
-  background-color: #120E16;
+  background-color: #1A171E;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -7,7 +7,7 @@
   text-align: center;
 }
 .footer-text h5{
-  color:rgb(77,35,173)
+  color:#9F38A5
 }
 .footer-text h2,p{
   color: #e8e8e8;

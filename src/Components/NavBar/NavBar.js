@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import GetAppIcon from '@material-ui/icons/GetApp';
 const NavBar = () => {
   return (
     <div>
@@ -37,7 +38,7 @@ const NavBar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#project">
+                <a class="nav-link " aria-current="page" href="/projects">
                   Projects
                 </a>
               </li>
@@ -47,9 +48,9 @@ const NavBar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#">
+                <a href="https://drive.google.com/u/1/uc?id=1uWqA6k3d9htViqd10XYmrRsQ5mh14UEL&export=download">
                   <button type="button" className="btn btn-color">
-                    Resume
+                    <GetAppIcon />Resume
                   </button>
                 </a>
               </li>

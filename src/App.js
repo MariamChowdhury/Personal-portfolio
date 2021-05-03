@@ -6,6 +6,7 @@ import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
+import BlogPageData from "./Components/Blog/BlogPageData";
 function App() {
   return (
     <div>
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path='/about'>
             <About />
+          </Route>
+          <Route path='/blog'>
+            <BlogPageData></BlogPageData>
           </Route>
           <Route exact="*">Error!</Route>
         </Switch>

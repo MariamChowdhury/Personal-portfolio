@@ -1,43 +1,43 @@
-.about-container{
+.about-container {
   padding-top: 100px;
   background-color: rgb(18, 14, 22);
+  padding-bottom: 100px;
 }
-.about-col img{
+.about-col img {
   height: 250px;
 }
-.about-col h1{
-  color: #E8E8E8;
-  border-bottom: 0.19rem solid #4D23AD;
+.about-col h1 {
+  color: #e8e8e8;
+  border-bottom: 0.19rem solid #4d23ad;
   padding-bottom: 10px;
 }
-.about-col p{
-  color: #C3C3C3;
+.about-col p {
+  color: #c3c3c3;
 }
-.skill-col h3{
-  color:#E8E8E8;
+.skill-col h3 {
+  color: #e8e8e8;
 }
-.skill-col{
+.skill-col {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.skills{
+.skills {
   display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
 }
-.skills span{
-  color:#E8E8E8;
-  border:1px solid  #4D23AD;
-  
-    margin-right: 5px;
-    margin-top: 5px;
-    border-radius: 3px;
-    padding: 3px 10px;
-    font-size: 13px;
-    height: 26px;
+.skills span {
+  color: #e8e8e8;
+  border: 1px solid #4d23ad;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding: 5px 20px;
+  font-size: 15px;
+  height: 35px;
 }
-.skills span:hover{
-  background-color: #4D23AD;
-  color: #E8E8E8;
-  box-shadow: 0px 1px 35px 0px rgb(77, 35, 173,0.9 ) ;
+.skills span:hover {
+  background-color: #4d23ad;
+  color: #e8e8e8;
+  box-shadow: 0px 1px 35px 0px rgb(77, 35, 173, 0.9);
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
+import HomePageBlog from '../Blog/HomePageBlog';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import HomePageProject from '../Projects/HomePageProject';
@@ -29,6 +30,7 @@ const Home = () => {
      
       <Header />
     <HomePageProject />
+    <HomePageBlog />
     <Footer />
     </div>
   );
