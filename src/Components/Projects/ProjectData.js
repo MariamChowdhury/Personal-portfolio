@@ -47,7 +47,7 @@ const ProjectData = () => {
         <div className="col-md-4 py-3">
         <div className="cards">
         <div className="image ">
-          <img src={project05} className="card-img-top" alt="" />
+          <img src={project03} className="card-img-top" alt="" />
         </div>
 
         <div className="content">
@@ -80,7 +80,7 @@ const ProjectData = () => {
         <div className="col-md-4 py-3">
         <div className="cards">
         <div className="image ">
-          <img src={project03} className="card-img-top" alt="" />
+          <img src={project05} className="card-img-top" alt="" />
         </div>
 
         <div className="content">
