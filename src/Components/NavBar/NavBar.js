@@ -48,7 +48,7 @@ const NavBar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a href="https://drive.google.com/u/1/uc?id=1uWqA6k3d9htViqd10XYmrRsQ5mh14UEL&export=download">
+                <a href="https://drive.google.com/u/1/uc?id=167Lyi2ZVGYvBxghQ9Q4pvBM8wNhsSAiE&export=download">
                   <button type="button" className="btn btn-color">
                     <GetAppIcon />Resume
                   </button>

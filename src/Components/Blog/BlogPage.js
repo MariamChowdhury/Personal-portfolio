@@ -12,8 +12,7 @@ const BlogPage = ({data}) => {
             <h5>{data.name}</h5>
           </div>
           <div className="sub-title">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            neque.
+            {data.title}
           </div>
           <div className="bottom">
            <a href={data.url} target='_blank'><button>Read more</button></a>
