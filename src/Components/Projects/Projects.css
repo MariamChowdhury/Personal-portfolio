@@ -42,7 +42,7 @@ transition:0.3s ;
   padding: 20px 30px;
 }
 .content .title{
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   color:#E8E8E8 ;
   font-family: 'Roboto', sans-serif;
@@ -91,4 +91,15 @@ transition:0.3s ;
 .svg-class{
   fill:aliceblue;
   height: 20px;
+}
+
+.github-icon{
+  color: white;
+   margin-left: 0px
+}
+
+.link-icon{
+  color: white;
+   margin-left: 10px
+
 }

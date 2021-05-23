@@ -18,10 +18,7 @@ const Contact = () => {
     <div className="contact-container">
       <div className="row mt-5">
         <div className="col-md-6 mx-auto mt-5">
-          <form className='contact-form' onSubmit={sendEmail}
-            // action="https://formsubmit.co/mariamchowdhury.200@gmail.com"
-            // method="POST"
-          >
+          <form className='contact-form' onSubmit={sendEmail}  >
             <div class="form-class form-text container px-5 pt-5">
               <input
                 type="name"

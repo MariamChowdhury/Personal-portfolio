@@ -1,0 +1,8 @@
+.footer-main-container, .footer-main-container p{
+  background-color: #1A171E;
+  color:#9F38A5
+}
+.footer-link-main, .footer-link-main:hover{
+  text-decoration: none;
+  color:#9F38A5
+}

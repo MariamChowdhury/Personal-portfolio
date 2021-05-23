@@ -7,6 +7,7 @@ import Projects from "./Components/Projects/Projects";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import BlogPageData from "./Components/Blog/BlogPageData";
+import FooterMain from "./Components/FooterMain/FooterMain";
 function App() {
   return (
     <div>
@@ -33,6 +34,7 @@ function App() {
           </Route>
           <Route exact="*">Error!</Route>
         </Switch>
+        <FooterMain />
       </Router>
     </div>
   );

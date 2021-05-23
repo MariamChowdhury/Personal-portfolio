@@ -73,4 +73,5 @@ transition:0.3s ;
 .blog-container{
   background-color:#1A171E;
   padding-top: 100px;
+  height: 100vh;
 }

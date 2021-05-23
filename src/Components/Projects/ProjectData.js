@@ -1,120 +1,114 @@
 import React from "react";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
-import project01 from "../images/project01.PNG";
-import project05 from "../images/project05.PNG";
-import project03 from "../images/project03.PNG";
+import dental from '../images/dental.PNG'
+import rider from '../images/rider.PNG'
+import book from '../images/BookShop.PNG'
 import "./Projects.css";
 const ProjectData = () => {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-md-4 py-3">
-        <div className="cards">
-        <div className="image ">
-          <img src={project01} className="card-img-top" alt="" />
-        </div>
-
-        <div className="content">
-          <div className="title">
-            <p>Cozy Tea Shop</p>
-          </div>
-          <div className="sub-title">
-            <p>A custom made API based website from where one can add, remove or buy any kind ot tea.</p>
-          </div>
-          <div className="bottom">
-            <div className='tech'>
-              <span>React.js</span>
-              <span>Express.js</span>
-              <span>Node.js</span>
-              <span>MongoDB</span>
-              <span>Firebase</span>
-              <span>Heroku</span>
+       <div className="row">
+          <div className="col-md-4 py-5 py-5">
+            <div className="cards">
+              <div className="image ">
+                <img src={dental} className="card-img-top" alt="" />
+              </div>
+              <div className="content">
+                <div className="title">
+                  <p>Dental Care</p>
+                </div>
+                <div className="sub-title">
+                  <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sapiente.
+                  </p>
+                </div>
+                <div className="bottom">
+                  <div className="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                  </div>
+                  <button>
+                    <a href=""target="_blank" rel="noreferrer">
+                      <GitHubIcon className='github-icon' />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <OpenInNewIcon className='link-icon'/>
+                    </a>
+                  </button>
+                </div>
+              </div>
             </div>
-            <button>
-            <a href="https://github.com/MariamChowdhury/Cozy-Tea-Shop" target='_blank'>
-                    <GitHubIcon style={{color:'white',marginLeft:'0px'}} />
-                    </a>
-                    <a href="https://tea-shop-9e682.web.app/" target='_blank'>
-                   <OpenInNewIcon style={{color:'white',marginLeft:'10px'}} />
-                    </a>
-            </button>
           </div>
-        </div>
-      </div>
+          <div className="col-md-4 py-5">
+            <div className="cards">
+              <div className="image ">
+                <img src={book} className="card-img-top" alt="" />
+              </div>
 
-        </div>
-        <div className="col-md-4 py-3">
-        <div className="cards">
-        <div className="image ">
-          <img src={project03} className="card-img-top" alt="" />
-        </div>
-
-        <div className="content">
-          <div className="title">
-            <p>Ride Booking App</p>
-          </div>
-          <div className="sub-title">
-            <p>It's a ride booking app website implemented with google authentication system.</p>
-          </div>
-          <div className="bottom">
-            <div className='tech'>
-              <span>React.js</span>
-              <span>Node.js</span>
-              <span>Netlify</span>
-              <span>Firebase</span>
+              <div className="content">
+                <div className="title">
+                  <p>Book Shop</p>
+                </div>
+                <div className="sub-title">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, expedita!
+                  </p>
+                </div>
+                <div className="bottom">
+                  <div className="tech">
+                    <span>React.js</span>
+                    <span>Netlify</span>
+                    <span>Node.js</span>
+                  </div>
+                  <button>
+                    <a href="" target="_blank" rel="noreferrer" >
+                       <GitHubIcon className='github-icon' />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer" >
+                      <OpenInNewIcon className='link-icon'/>
+                    </a>
+                  </button>
+                </div>
+              </div>
             </div>
-            <button>
-            <a href="https://github.com/MariamChowdhury/Ride-Booking-App" target='_blank'>
-                    <GitHubIcon style={{color:'white',marginLeft:'0px'}} />
+          </div>
+          <div className="col-md-4 py-5">
+            <div className="cards">
+              <div className="image ">
+                <img src={rider} className="card-img-top" alt="" />
+              </div>
+              <div className="content">
+                <div className="title">
+                  <p>Ride Booking App</p>
+                </div>
+                <div className="sub-title">
+                  <p>
+                    It's a ride booking app website implemented with google
+                    authentication system.
+                  </p>
+                </div>
+                <div className="bottom">
+                  <div className="tech">
+                    <span>React.js</span>
+                    <span>Node.js</span>
+                    <span>Netlify</span>
+                    <span>Firebase</span>
+                  </div>
+                  <button>
+                    {" "}
+                    <a href="https://github.com/MariamChowdhury/Ride-Booking-App" target="_blank" rel="noreferrer">
+                       <GitHubIcon className='github-icon' />
                     </a>
-                    <a href="https://bd-rider-app.web.app/" target='_blank'>
-                   <OpenInNewIcon style={{color:'white',marginLeft:'10px'}} />
+                    <a href="https://bd-rider-app.web.app/" target="_blank" rel="noreferrer">
+                      <OpenInNewIcon className='link-icon'/>
                     </a>
-            </button>
-          </div>
-        </div>
-      </div>
-      
-        </div>
-        <div className="col-md-4 py-3">
-        <div className="cards">
-        <div className="image ">
-          <img src={project05} className="card-img-top" alt="" />
-        </div>
-
-        <div className="content">
-          <div className="title">
-            <p>CovidInfo</p>
-          </div>
-          <div className="sub-title">
-            <p>A single page website where one can get all the latest info on Covid-19 in just 30 seconds.</p>
-          </div>
-          <div className="bottom">
-            <div className='tech'>
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>Bootstrap5</span>
-              <span>Microsoft Azure</span>
+                  </button>
+                </div>
+              </div>
             </div>
-            <button>
-            <a href="https://github.com/MariamChowdhury/covid-web" target='_blank'>
-                    <GitHubIcon style={{color:'white',marginLeft:'0px'}} />
-                    </a>
-                    <a href="https://www.covinfobd.codes/" target='_blank'>
-                   <OpenInNewIcon style={{color:'white',marginLeft:'10px'}} />
-                    </a>
-            </button>
           </div>
         </div>
-        </div>
-      </div>
-    </div>
-   
-      
-
-     
-     
       </div>
       
       
