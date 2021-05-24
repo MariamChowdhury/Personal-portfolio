@@ -84,10 +84,10 @@ const Projects = () => {
                     <span>Stripe.js</span>
                   </div>
                   <button>
-                    <a href="" target="_blank" rel="noreferrer" >
+                    <a href="https://github.com/MariamChowdhury/Book-Store" target="_blank" rel="noreferrer" >
                        <GitHubIcon className='github-icon' />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer" >
+                    <a href="https://book-shop-58860.web.app" target="_blank" rel="noreferrer" >
                       <OpenInNewIcon className='link-icon'/>
                     </a>
                   </button>

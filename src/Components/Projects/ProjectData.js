@@ -8,8 +8,8 @@ import "./Projects.css";
 const ProjectData = () => {
   return (
     <div className="container">
-       <div className="row">
-          <div className="col-md-4 py-5 py-5">
+         <div className="row">
+          <div className="col-md-4 py-5">
             <div className="cards">
               <div className="image ">
                 <img src={dental} className="card-img-top" alt="" />
@@ -19,20 +19,25 @@ const ProjectData = () => {
                   <p>Dental Care</p>
                 </div>
                 <div className="sub-title">
-                  <p>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sapiente.
-                  </p>
+                  <p> MERN stack project with 2 dashboards.
+                    </p>
                 </div>
                 <div className="bottom">
                   <div className="tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
+                    <span>React.js</span>
+                    <span>Express.js</span>
+                    <span>Node.js</span>
+                    <span>MongoDb</span>
+                    <span>Firebase</span>
+                    <span>Heroku</span>
+                    <span>Material UI</span>
+                    <span>Express-Fileupload</span>
                   </div>
                   <button>
-                    <a href=""target="_blank" rel="noreferrer">
+                    <a href="https://github.com/MariamChowdhury/dental-care"target="_blank" rel="noreferrer">
                       <GitHubIcon className='github-icon' />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://dental-care-d96fe.web.app/" target="_blank" rel="noreferrer">
                       <OpenInNewIcon className='link-icon'/>
                     </a>
                   </button>
@@ -52,20 +57,25 @@ const ProjectData = () => {
                 </div>
                 <div className="sub-title">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, expedita!
+                    MERN stack project of a book shop.
                   </p>
                 </div>
                 <div className="bottom">
                   <div className="tech">
-                    <span>React.js</span>
-                    <span>Netlify</span>
+                  <span>React.js</span>
+                    <span>Express.js</span>
                     <span>Node.js</span>
+                    <span>MongoDb</span>
+                    <span>Firebase</span>
+                    <span>Heroku</span>
+                    <span>Material UI</span>
+                    <span>Stripe.js</span>
                   </div>
                   <button>
-                    <a href="" target="_blank" rel="noreferrer" >
+                    <a href="https://github.com/MariamChowdhury/Book-Store" target="_blank" rel="noreferrer" >
                        <GitHubIcon className='github-icon' />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer" >
+                    <a href="https://book-shop-58860.web.app" target="_blank" rel="noreferrer" >
                       <OpenInNewIcon className='link-icon'/>
                     </a>
                   </button>
@@ -84,8 +94,8 @@ const ProjectData = () => {
                 </div>
                 <div className="sub-title">
                   <p>
-                    It's a ride booking app website implemented with google
-                    authentication system.
+                    A ride booking app website implemented with google
+                    authentication system.Where user can also log in using email.
                   </p>
                 </div>
                 <div className="bottom">
