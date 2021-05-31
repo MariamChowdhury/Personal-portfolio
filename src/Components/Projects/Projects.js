@@ -13,6 +13,7 @@ import tea from '../images/tea-shop.PNG'
 import rock from '../images/hard-rock.PNG'
 import pin from '../images/pin=matcher.PNG'
 import shopping from '../images/shopping-cart.PNG'
+import finReads from '../images/finReads.PNG'
 const Projects = () => {
   return (
     <div className="project-page-container">
@@ -424,6 +425,40 @@ const Projects = () => {
                       <GitHubIcon className='github-icon' />
                     </a>
                     <a href="https://mariamchowdhury.github.io/shopping-cart/index.html" target="_blank" rel="noreferrer">
+                      <OpenInNewIcon className='link-icon'/>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+        <div className="col-md-4 py-5">
+          <div className="cards">
+              <div className="image ">
+                <img src={finReads} className="card-img-top" alt="" />
+              </div>
+              <div className="content">
+                <div className="title">
+                  <p>Landing Page</p>
+                </div>
+                <div className="sub-title">
+                  <p>
+                   Example of a static landing page of a company.
+                  </p>
+                </div>
+                <div className="bottom">
+                  <div className="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                  </div>
+                  <button>
+                    <a href="https://github.com/MariamChowdhury/FinReads"target="_blank" rel="noreferrer">
+                      <GitHubIcon className='github-icon' />
+                    </a>
+                    <a href="https://mariamchowdhury.github.io/FinReads/" target="_blank" rel="noreferrer">
                       <OpenInNewIcon className='link-icon'/>
                     </a>
                   </button>

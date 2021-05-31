@@ -29,9 +29,9 @@ const About = () => {
            <span>HTML</span>
            <span>CSS</span>
            <span>Bootstrap</span>
-           <span>JavaScript</span>
-           <span>ES6</span>
+           <span>JavaScript(ES5 & ES6)</span>
            <span>React.js</span>
+           <span>Redux</span>
            <span>Node.js</span>
            <span>Express.js</span>
            <span>MongoDB</span>
@@ -41,11 +41,8 @@ const About = () => {
            <span>NPM</span>
            <span>VS Code</span>
            <span>REST API</span>
+           <span>Heroku</span>
            <span>Firebase</span>
-           <span>C</span>
-           <span>C++</span>
-           <span>Java</span>
-           <span>Python</span>
          </div>
          </div>
         </div>
