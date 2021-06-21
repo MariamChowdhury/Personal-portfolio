@@ -1,3 +1,6 @@
+@-ms-viewport {
+  width: 320px;
+}
 .header-wrapper{
   background-color: #120E16;
   position: relative;

@@ -101,5 +101,7 @@ transition:0.3s ;
 .link-icon{
   color: white;
    margin-left: 10px
-
+}
+@-ms-viewport {
+  width: 320px;
 }

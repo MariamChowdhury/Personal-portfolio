@@ -75,3 +75,6 @@ transition:0.3s ;
   padding-top: 100px;
   height: 100vh;
 }
+@-ms-viewport {
+  width: 320px;
+}
