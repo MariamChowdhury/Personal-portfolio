@@ -8,18 +8,21 @@
   padding-bottom: 3rem;
 }
 
-.project-cards:hover {
+.project-cards:hover,
+.cards {
   box-shadow: 0px 1px 35px 0px rgb(77, 35, 173, 0.9);
 }
 .image img {
   transition: 0.3s;
 }
-.project-cards:hover .image img {
+.project-cards:hover .image img,
+.cards:hover .image img {
   opacity: 0.6;
   transform: scale(1.1);
 }
 
-.project-cards .content {
+.project-cards .content,
+.cards .content {
   position: absolute;
   bottom: 0px;
   background-color: #120e16;

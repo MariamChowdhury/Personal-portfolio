@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 @-ms-viewport {
-  width: 320px;
+  width: 300px;
 }
 /* xxl  */
 @media (min-width: 1400px) {
@@ -168,29 +168,29 @@ body {
   .cards {
     margin: 0 auto;
     position: relative;
-    height: 510px;
-    width: 385px;
+    height: 31.875rem;
+    width: 24.063rem;
     display: block;
     box-shadow: 0px 1px 2px 0px rgb(77, 35, 173, 0.6);
     transition: 0.4s linear;
     border-radius: 20px;
   }
   .cards .image {
-    height: 300px;
+    height: 18.75rem;
     overflow: hidden;
   }
   .project-cards {
     margin: 0 auto;
     position: relative;
-    height: 490px;
-    width: 400px;
+    height: 30.625rem;
+    width: 25rem;
     display: block;
     box-shadow: 0px 1px 2px 0px rgb(77, 35, 173, 0.6);
     transition: 0.4s linear;
     overflow: hidden;
   }
   .project-cards .image {
-    height: 450px;
+    height: 28.125rem;
     overflow: hidden;
   }
   .navbar-nav li {
