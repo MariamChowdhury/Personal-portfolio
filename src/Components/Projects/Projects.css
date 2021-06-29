@@ -1,59 +1,41 @@
-.project-section{
-  background-color: #1A171E;
-  padding-bottom: 100px;
-  padding-top: 100px;
+.project-section {
+  background-color: #1a171e;
 }
-.project-section h2{
-  color:#E8E8E8;
+.project-section h2 {
+  color: #e8e8e8;
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.cards{
-  position:relative;
-  height:470px;
-  width:340px;
-  display: block;
-  background-color: #120E16;
-  box-shadow: 0px 1px 2px 0px rgb(77, 35, 173,0.6 ) ;
-  transition: 0.4s linear;
-  border-radius: 20px;
+.project-cards:hover {
+  box-shadow: 0px 1px 35px 0px rgb(77, 35, 173, 0.9);
 }
-.cards:hover{
-  box-shadow: 0px 1px 35px 0px rgb(77, 35, 173,0.9) ;
+.image img {
+  transition: 0.3s;
 }
-.image img{
-transition:0.3s ;
-}
-.cards:hover .image img{
+.project-cards:hover .image img {
   opacity: 0.6;
   transform: scale(1.1);
 }
-.cards .image{
-  height: 400px;
-  overflow:hidden
-}
-.cards .content{
+
+.project-cards .content {
   position: absolute;
   bottom: 0px;
-  background-color: #120E16;
+  background-color: #120e16;
   color: #888888;
   padding: 20px 30px;
 }
-.content .title{
+.content .title {
   font-size: 20px;
   font-weight: bold;
-  color:#E8E8E8 ;
-  font-family: 'Roboto', sans-serif;
+  color: #e8e8e8;
 }
-.content .sub-title{
+.content .sub-title {
   font-size: 15px;
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
 }
-.bottom button{
- 
+.bottom button {
   padding: 7px 15px;
   font-size: 17px;
   background-color: rgb(77, 35, 173);
@@ -62,46 +44,40 @@ transition:0.3s ;
   margin: 20px 0;
 }
 
-.tech{
+.tech {
   display: flex;
   flex-wrap: wrap;
 }
-.tech span{
-  background: #9F38A5;
-  color:#E8E8E8;
-    margin-right: 5px;
-    margin-top: 5px;
-    border-radius: 3px;
-    padding: 0px 10px;
-    font-size: 13px;
-    font-weight: 500;
-    height: 29px;
-    font-family: 'Roboto', sans-serif;
+.tech span {
+  background: #9f38a5;
+  color: #e8e8e8;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 0px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  height: 29px;
 }
-.project-page-container{
+.project-page-container {
   padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #1A171E;
+  background-color: #1a171e;
 }
-.project-page-container h2{
-  color: #E8E8E8;
+.project-page-container h2 {
+  color: #e8e8e8;
   text-align: center;
-  font-family: 'Roboto', sans-serif; 
 }
-.svg-class{
-  fill:aliceblue;
+.svg-class {
+  fill: aliceblue;
   height: 20px;
 }
 
-.github-icon{
+.github-icon {
   color: white;
-   margin-left: 0px
+  margin-left: 0px;
 }
 
-.link-icon{
+.link-icon {
   color: white;
-   margin-left: 10px
-}
-@-ms-viewport {
-  width: 320px;
+  margin-left: 10px;
 }

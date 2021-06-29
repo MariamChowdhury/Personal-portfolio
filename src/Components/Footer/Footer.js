@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container py-5">
       <div className="container footer-text">
         <h5>What's next?</h5>
         <h2>Get In Touch</h2>
@@ -12,9 +12,11 @@ const Footer = () => {
           to say hi, feel free to drop a message. I'll try my best to get back
           to you!
         </p>
-        <Link to="/contact"><button type="button" className="btn btn-color">
-             Say Hi!
-          </button></Link>
+        <Link to="/contact">
+          <button type="button" className="btn btn-color">
+            Say Hi!
+          </button>
+        </Link>
       </div>
     </div>
   );

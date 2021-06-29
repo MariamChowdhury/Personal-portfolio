@@ -1,8 +1,13 @@
-.footer-main-container, .footer-main-container p{
-  background-color: #1A171E;
-  color:#9F38A5
+.footer-main-container,
+.footer-main-container p {
+  background-color: #1a171e;
+  color: #9f38a5;
 }
-.footer-link-main, .footer-link-main:hover{
+.footer-link-main {
   text-decoration: none;
-  color:#9F38A5
+  color: #9f38a5;
+}
+.footer-link-main:hover {
+  text-decoration: underline;
+  color: #fff;
 }
