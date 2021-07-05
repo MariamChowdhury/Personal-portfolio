@@ -36,6 +36,7 @@ const Contact = () => {
                   name="name"
                   id="exampleFormControlInput1"
                   placeholder="Your Name"
+                  required
                 />
               </div>
               <div class="container px-3 px-md-5 form-text pt-4">
@@ -45,6 +46,7 @@ const Contact = () => {
                   name="email"
                   id="exampleFormControlInput2"
                   placeholder="Your Email"
+                  required
                 />
               </div>
               <div class="form-class form-text px-3 px-md-5 container  pt-4">
@@ -54,6 +56,7 @@ const Contact = () => {
                   name="name"
                   id="exampleFormControlInput1"
                   placeholder="Subject"
+                  required
                 />
               </div>
               <div class="container form-text px-3 px-md-5 pt-4">
@@ -63,6 +66,7 @@ const Contact = () => {
                   name="message"
                   rows="2"
                   placeholder="Your Message"
+                  required
                 ></textarea>
                 <p className="form-paragraph">
                   Sending response to{" "}
